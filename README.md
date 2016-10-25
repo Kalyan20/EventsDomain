@@ -1,5 +1,5 @@
 # EventsDomain
-This porject is built on Spring boot with Spring JPA data and inbuild inmemory (H2 hsqlDB)
+This project is built on Spring boot with Spring JPA data and inbuild inmemory (H2 hsqlDB)
 Services are implemented with Spring Rest controller
 
 Data creation is happened when the endpoints are invoked and autommatic deletion of data when the server is shut down.
