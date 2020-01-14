@@ -53,7 +53,7 @@ public class UserController {
 			ErrorHandler.toError(e);
 		}
 		if (users.isEmpty()) {
-			return new ResponseEntity<List<User>>(HttpStatus.NOT_FOUND);// You many decide to return
+			return new ResponseEntity<List<User>>(HttpStatus.OK);// You many decide to return
 																		// HttpStatus.NOT_FOUND
 		}
 		return new ResponseEntity<List<User>>(users, HttpStatus.OK);
